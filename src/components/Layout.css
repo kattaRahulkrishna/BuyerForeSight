@@ -1,0 +1,130 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.quantum-header {
+  position: relative;
+  padding: 1.5rem 2rem;
+  z-index: 100;
+  background: linear-gradient(to bottom, rgba(26, 16, 60, 0.9) 0%, rgba(26, 16, 60, 0) 100%);
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo-icon {
+  color: var(--neon-magenta);
+  filter: drop-shadow(0 0 8px var(--neon-magenta));
+}
+
+.brand-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.brand-sub {
+  color: var(--text-muted);
+  font-weight: 300;
+}
+
+.header-border-glow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--neon-cyan) 30%, 
+    var(--neon-magenta) 70%, 
+    transparent 100%);
+  opacity: 0.5;
+  box-shadow: 0 0 10px var(--neon-cyan), 0 0 20px var(--neon-magenta);
+}
+
+.header-right-decorative {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.5;
+}
+
+.tech-line {
+  width: 100px;
+  height: 2px;
+  background: var(--neon-cyan);
+}
+
+.tech-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--neon-cyan);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--neon-cyan);
+}
+
+.layout-main {
+  flex: 1;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+
+/* Background floating hexagons for depth */
+.bg-decor {
+  position: absolute;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: rgba(0, 240, 255, 0.03);
+  border: 1px solid rgba(0, 240, 255, 0.1);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.bg-decor.hex-1 {
+  width: 300px;
+  height: 346px;
+  top: 10%;
+  left: -100px;
+  transform: rotate(15deg);
+}
+
+.bg-decor.hex-2 {
+  width: 500px;
+  height: 577px;
+  bottom: -150px;
+  right: -100px;
+  background: rgba(255, 0, 255, 0.02);
+  border: 1px solid rgba(255, 0, 255, 0.05);
+}
+
+.bg-decor.hex-3 {
+  width: 150px;
+  height: 173px;
+  top: 40%;
+  right: 15%;
+  opacity: 0.5;
+}

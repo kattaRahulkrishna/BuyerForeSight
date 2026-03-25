@@ -10,8 +10,12 @@ This project implements a futuristic "QuantumSync" theme featuring interlocking 
 ![Dashboard Grid](./screenshots/dashboard.png)
 
 ### User Details
-![Contact and Company Details](./screenshots/details-1.png)
-![Address & Location Details](./screenshots/details-2.png)
+![Contact and Company Details]
+<img width="1899" height="907" alt="Screenshot 2026-03-25 150054" src="https://github.com/user-attachments/assets/6885b10c-e315-4604-a37e-dd5e8e3fe883" />
+
+![Address & Location Details]
+<img width="1880" height="899" alt="Screenshot 2026-03-25 150119" src="https://github.com/user-attachments/assets/a4b1104a-8037-4b9e-90b5-26aca7e32e98" />
+<img width="1894" height="903" alt="Screenshot 2026-03-25 150133" src="https://github.com/user-attachments/assets/142b01e0-aa4e-432f-95d0-7f3f6604a163" />
 
 ## 🚀 Features
 - **Honeycomb Architecture:** Custom CSS layouts generating interactive hexagon user cards that adapt to viewport scaling.

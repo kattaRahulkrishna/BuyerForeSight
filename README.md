@@ -4,6 +4,15 @@ A premium, fast, and fully responsive User Directory Dashboard built with React,
 
 This project implements a futuristic "QuantumSync" theme featuring interlocking hexagon components, dynamic search functionality, and client-side sorting algorithms. 
 
+## 📸 Screenshots
+
+### BuyerForeSight User Hub
+![Dashboard Grid](./screenshots/dashboard.png)
+
+### User Details
+![Contact and Company Details](./screenshots/details-1.png)
+![Address & Location Details](./screenshots/details-2.png)
+
 ## 🚀 Features
 - **Honeycomb Architecture:** Custom CSS layouts generating interactive hexagon user cards that adapt to viewport scaling.
 - **Client-Side Data Interrogation:** Instant keyword searching across User Names and Emails.
